@@ -1,6 +1,6 @@
 import { Switch } from '@/components/ui/switch';
-import { MoonIcon, SunIcon } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { MoonIcon, SunIcon } from 'lucide-react';
 
 export default function LightDarkToggle() {
   const [isDark, setIsDark] = useState(false);
