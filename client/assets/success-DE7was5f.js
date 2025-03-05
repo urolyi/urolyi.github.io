@@ -1,0 +1,1 @@
+import{w as o}from"./with-props-DxIbb35Y.js";import{n as s}from"./chunk-HA7DTUK3-lk25npIL.js";const n=o(function(){return s.jsxs("div",{className:"flex flex-col gap-4",children:[s.jsx("b",{className:"text-3xl",children:"Thanks for reaching out!"}),s.jsx("p",{className:"text-lg",children:"I'll respond to you as soon as possible."})]})});export{n as default};
