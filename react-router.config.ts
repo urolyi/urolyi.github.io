@@ -5,7 +5,5 @@ export default {
   // Server-side render by default, to enable SPA mode set this to `false`
   ssr: false,
   // Pre-render all routes at build time
-  async prerender() {
-    return ['/', '/about', '/projects', '/contact'];
-  },
+  prerender: true,
 } satisfies Config;

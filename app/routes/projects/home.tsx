@@ -33,7 +33,7 @@ const projects = [
 
 export default function ProjectHome() {
   return (
-    <div className="text-center w-full h-full md:p-30 p-20">
+    <div className="text-center content-center w-full h-full md:p-30 p-20">
       <p className="text-5xl">These are some of my projects</p>
       <br />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xl">
