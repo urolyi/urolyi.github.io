@@ -24,7 +24,7 @@ export default function ProjectPersonalWebsite() {
         Check out the code on{' '}
         <a
           className="link-color"
-          href="https://github.com/urolyi/urolyi.github.io"
+          href="https://github.com/urolyi/urolyi.github.io/tree/react-code"
         >
           GitHub
         </a>
