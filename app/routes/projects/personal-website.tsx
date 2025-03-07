@@ -12,7 +12,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function ProjectPersonalWebsite() {
   return (
-    <div className="text-2xl w-1/2">
+    <div className="text-2xl w-full h-full md:p-30 p-20">
       <h1 className="text-4xl">This Website</h1>
       <br />
       <p className="">

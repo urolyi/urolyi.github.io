@@ -12,7 +12,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function ProjectLearningAuctions() {
   return (
-    <div className="w-1/2">
+    <div className="w-full h-full md:p-30 p-20">
       <p className="text-3xl">
         Learning revenue-maximizing incentive compatible auctions with
         differentiable matching

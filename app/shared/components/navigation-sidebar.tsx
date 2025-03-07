@@ -13,11 +13,11 @@ import {
 export default function NavigationSidebar() {
   return (
     <NavigationMenu className="">
-      <NavigationMenuList>
-        <NavigationMenuItem>
+      <NavigationMenuList className="">
+        <NavigationMenuItem className="">
           <NavigationMenuTrigger
-            className=""
-            menuIcon={<BurgerMenuIcon className="w-12 h-12" />}
+            className="p-2"
+            menuIcon={<BurgerMenuIcon className="md:w-10 md:h-10 w-7 h-7" />}
           />
           <NavigationMenuContent className="">
             <ul className="">

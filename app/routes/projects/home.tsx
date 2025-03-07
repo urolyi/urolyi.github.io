@@ -7,7 +7,6 @@ import {
   CardDescription,
   CardContent,
 } from '@/components/ui/card';
-import { ChevronRight } from 'lucide-react';
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -34,10 +33,10 @@ const projects = [
 
 export default function ProjectHome() {
   return (
-    <div className="text-center">
+    <div className="text-center w-full h-full md:p-30 p-20">
       <p className="text-5xl">These are some of my projects</p>
       <br />
-      <div className="grid grid-cols-2 sm:grid-cols-1 gap-4 text-xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xl">
         {projects.map((project) => (
           <ProjectCard
             key={project.title}
@@ -61,7 +60,7 @@ function ProjectCard({
   link: string;
 }) {
   return (
-    <Card className="ml-20 mr-20 hover:bg-accent">
+    <Card className=" hover:bg-accent">
       <Link to={link} className="flex flex-col items-center">
         <CardHeader>
           <CardTitle className="text-xl">{title}</CardTitle>

@@ -25,14 +25,15 @@ export const links: Route.LinksFunction = () => [
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="">
+    <html lang="en" className="min-h-screen min-w-screen w-screen h-screen">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        <link rel="icon" href="/favicon-light.png" />
       </head>
-      <body>
+      <body className="min-h-screen min-w-screen w-screen h-screen">
         {children}
         <ScrollRestoration />
         <Scripts />

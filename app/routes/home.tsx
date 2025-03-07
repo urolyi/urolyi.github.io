@@ -12,7 +12,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div className="text-5xl">
+    <div className="text-5xl w-full h-full md:p-30 p-20">
       <p>Welcome to Uro's Personal Website</p>
       <br />
       <div className="flex gap-5 w-full justify-center">

@@ -4,16 +4,16 @@ import LightDarkToggle from './shared/components/light-dark-toggle';
 
 export default function AppLayout() {
   return (
-    <div className="h-screen w-screen">
-      <aside className="fixed top-2 left-2 w-1/2">
+    <>
+      <header className="fixed top-2 left-2">
         <NavigationSidebar />
-      </aside>
-      <main className="flex h-screen justify-center items-center">
+      </header>
+      <main className="flex h-full w-full justify-center items-center content-center">
         <Outlet />
       </main>
-      <aside className="fixed bottom-2 right-2 p-3">
+      <footer className="fixed bottom-2 right-2">
         <LightDarkToggle />
-      </aside>
-    </div>
+      </footer>
+    </>
   );
 }

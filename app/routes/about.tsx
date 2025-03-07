@@ -12,7 +12,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function About() {
   return (
-    <div className="h-3/4 w-5/8 p-10 text-left mb-20">
+    <div className="w-full h-full md:p-30 p-20">
       <p className="text-4xl">Hi I'm Uro.</p>
       <br />
       <p className="text-xl">
@@ -26,13 +26,13 @@ export default function About() {
       <p className="text-xl">
         I graduated from the University of Maryland, College Park and studied
         Computer Science, Math, and Economics. Before that I went to Montgomery
-        Blair High School in Silver Spring, MD where I was part of the Scient,
+        Blair High School in Silver Spring, MD where I was part of the Science,
         Math, and Computer Science Magnet Program.
       </p>
       <br />
       <p className="text-xl">
-        When I'm not working, I play basketball and explore the nearly infinite
-        NYC restaurant scene.
+        When I'm not working, I like to play basketball and explore the nearly
+        infinite NYC restaurant scene.
       </p>
     </div>
   );
